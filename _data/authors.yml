@@ -2,9 +2,9 @@
 
 Name Name:
   name        : "Name Name"
-  uri         : "http://name.com"
+  uri         :
   email       :
   bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
+  avatar      : "profile.png"
   twitter     :
   google_plus :
