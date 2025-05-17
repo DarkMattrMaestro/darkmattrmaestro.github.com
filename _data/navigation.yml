@@ -12,7 +12,7 @@ main:
     url: /artwork/
 
   - title: "Blog Posts"
-    url: /year-archive/
+    url: /blog/
 
   - title: "Publications"
     url: /publications/
