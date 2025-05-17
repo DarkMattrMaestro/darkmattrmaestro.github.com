@@ -1,49 +1,251 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+## Overview
+Hello, I'm a Canadian student who tends to write programs that are useful in small ways. I also generally like math problems that have interesting answers.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+### Communication Languagues:
++ English
++ French
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+### Programming Languages I've previously worked with (in order of most comfortable to least comfortable):
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<table>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/e96d8ff0-947d-40bd-86ca-e79f784fae2d" alt="HTML logo" width="30"/>
+        </td>
+        <td>
+            <p>HTML</p>
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/5fc46e70-5de2-4d3a-b871-ad606baad551" alt="Java logo" width="30"/>
+        </td>
+        <td>
+            <p>Java</p>
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/b2de5beb-a5eb-4ac5-9e9d-1e65d2cf4a1a" alt="Javascript logo" width="30"/>
+        </td>
+        <td>
+            <p>Javascript</p>
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/1a594c53-eb83-4600-906e-225094b36743" alt="R logo" width="30"/>
+        </td>
+        <td>
+            <p>R</p>
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/9064270e-e62f-4258-9a6d-72c863746677" alt="Python logo" width="30"/>
+        </td>
+        <td>
+            <p>Python</p>
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/81de25d4-2cb5-44ee-9076-abafc81d6903" alt="C# logo" width="30"/>
+        </td>
+        <td>
+            <p>C#</p>
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/c79b9185-9d63-4022-a2a6-275fe060b27f" alt="CSS logo" width="30"/>
+        </td>
+        <td>
+            <p>CSS</p>
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/e9b82857-6a67-400c-9755-16ff7b893e5c" alt="SwiftUI logo" width="30"/>
+        </td>
+        <td>
+            <p>SwiftUI</p>
+        </td>
+    </tr>
+</table>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+### Previous Development Projects:
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<table>
+    <tr>
+        <td valign="center">
+            <img src="https://raw.githubusercontent.com/DarkMattrMaestro/half-bold-reader/refs/heads/main/icons/half-bold-reader1024x1024.png" alt="Half-Bold Reader logo" width="80"/>
+        </td>
+        <td>
+            <a href="https://github.com/DarkMattrMaestro/half-bold-reader">
+                Half-Bold Reader
+            </a>
+        </td>
+        <td>
+            One of my friends asked me to write an extension that increases the readability of web pages by making the first half of every word bold. This project is the result.
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/5e7a2c21-a986-4f4f-a22b-8ecc47eee590" alt="GBXPos logo" width="80"/>
+        </td>
+        <td>
+            <a href="https://github.com/DarkMattrMaestro/stats-tmnf-quarto#readme">Classification de toute allure!</a>
+        </td>
+        <td>
+            For my grade 12 statistics culminating projects, I delved into the correlations between maps' racing lines and their user-selected Tags in Trackmania Nations Forever by means of predictive models. The primary model ended up having an accuracy of 84.71%, which is quite good considering that no track information was provided. See <a href="https://github.com/DarkMattrMaestro/StatsProjectTMNF/blob/main/MainCodebase.ipynb">StatsProjectTMNF</a> for the data-collection program.
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/5e7a2c21-a986-4f4f-a22b-8ecc47eee590" alt="GBXPos logo" width="80"/>
+        </td>
+        <td>
+            <a href="https://github.com/DarkMattrMaestro/GBXPosBlenderAddon">
+                GBXPos & GBXPosBlenderAddon
+            </a>
+        </td>
+        <td>
+            A discontinued, incomplete tool to import Trackmania Nations Forever replays to Blender. I discontinued this project when I learned that the creator of the GBX.NET package started writing their own tool that would render GBXPos obsolete.
+        </td>
+    </tr>
+</table>
 
-**Markdown generator**
+----------------------------------------------------------------------------------------------
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+<details>
+    <summary>Français</summary>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+## Survol
+Bonjour, je suis un étudiant canadien qui aime écrire des programmes qui sont utiles de manière subtile. Souvent, je me trouve également intrigué par des problèmes mathématiques ayant des solutions bien pensées.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+### Languagues de communication :
++ Anglais
++ Français
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+### Languages de programmation avec lesquelles j'ai précédemment travaillé (en ordre du plus au moins comfortable) :
+
+<table>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/e96d8ff0-947d-40bd-86ca-e79f784fae2d" alt="Logo HTML" width="30"/>
+        </td>
+        <td>
+            <p>HTML</p>
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/5fc46e70-5de2-4d3a-b871-ad606baad551" alt="Logo Java" width="30"/>
+        </td>
+        <td>
+            <p>Java</p>
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/b2de5beb-a5eb-4ac5-9e9d-1e65d2cf4a1a" alt="Logo Javascript" width="30"/>
+        </td>
+        <td>
+            <p>Javascript</p>
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/1a594c53-eb83-4600-906e-225094b36743" alt="Logo R" width="30"/>
+        </td>
+        <td>
+            <p>R</p>
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/9064270e-e62f-4258-9a6d-72c863746677" alt="Logo Python" width="30"/>
+        </td>
+        <td>
+            <p>Python</p>
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/81de25d4-2cb5-44ee-9076-abafc81d6903" alt="Logo C#" width="30"/>
+        </td>
+        <td>
+            <p>C#</p>
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/c79b9185-9d63-4022-a2a6-275fe060b27f" alt="Logo CSS" width="30"/>
+        </td>
+        <td>
+            <p>CSS</p>
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/e9b82857-6a67-400c-9755-16ff7b893e5c" alt="Logo SwiftUI" width="30"/>
+        </td>
+        <td>
+            <p>SwiftUI</p>
+        </td>
+    </tr>
+</table>
+
+### Projets de développement antécédents :
+
+<table>
+    <tr>
+        <td valign="center">
+            <img src="https://raw.githubusercontent.com/DarkMattrMaestro/half-bold-reader/refs/heads/main/icons/half-bold-reader1024x1024.png" alt="Half-Bold Reader logo" width="50px"/>
+        </td>
+        <td>
+            <a href="https://github.com/DarkMattrMaestro/half-bold-reader">
+                Half-Bold Reader
+            </a>
+        </td>
+        <td>
+            Un de mes amis m'a demandé d'écrire une extension à but d'augmenter la lisibilité de pages Web en mettant en gras la première demie de chaque mot. Ce projet en est le résultat.
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/5e7a2c21-a986-4f4f-a22b-8ecc47eee590" alt="GBXPos logo" width="80"/>
+        </td>
+        <td>
+            <a href="https://github.com/DarkMattrMaestro/stats-tmnf-quarto#readme">Classification de toute allure!</a>
+        </td>
+        <td>
+            Pour mon projet d'envergure dans mon cours de statistiques de 12ème année, j'ai exploré les corrélations entre le cheminement de voitures dans des circuits et leur Étiquette assigné, dans Trackmania Nations Forever, par moyen de modèles prédictifs. Le modèle principal a une exactitude de 84,71%, ce qui est plutôt bon considérant qu'aucun renseignement du circuit n'est fourni. Voyez <a href="https://github.com/DarkMattrMaestro/StatsProjectTMNF/blob/main/MainCodebase.ipynb">StatsProjectTMNF</a> pour le programme de collection de données.
+        </td>
+    </tr>
+    <tr>
+        <td valign="center">
+            <img src="https://github.com/user-attachments/assets/5e7a2c21-a986-4f4f-a22b-8ecc47eee590" alt="GBXPos logo" width="80"/>
+        </td>
+        <td>
+            <a href="https://github.com/DarkMattrMaestro/GBXPosBlenderAddon">
+                GBXPos & GBXPosBlenderAddon
+            </a>
+        </td>
+        <td>
+            Un outil abandonné et incomplet à but d'importer des rediffusions de Trackmania Nations Forever dans Blender. Le projet a été abandonné quand il est venu à mon attention que le créateur du package GBX.NET débutait l'écriture d'un outil qui renderait GBXPos obsolète.
+        </td>
+    </tr>
+</table>
+
+</details>
