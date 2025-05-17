@@ -389,6 +389,7 @@ body:hover .visually-hidden button {
     position: sticky;
     top: 2em;
     scrollbar-width: none;
+    overflow-y: hidden;
 
     > * {
       display: block;
